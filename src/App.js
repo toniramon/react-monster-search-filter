@@ -29,7 +29,13 @@ class App extends Component {
       <div className="App">
         <h1>Monsters Rolodex</h1>
         <SearchBox onSearchChange={this.onSearchChange} />
-        <CardList monsters={filteredMonsters} />
+        <CardList>
+          {
+            this.state.monsters.map(monster => (
+                <h1 key={monster.id}> {monster.name} </h1>
+            ))
+          }
+        </CardList>
       </div>
     );
   }
