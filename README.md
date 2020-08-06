@@ -1,3 +1,39 @@
+# React
+### What did I learn (Key Concepts)
+
+- The job of a React Developer:
+    - Decide on Components.
+    - Decide the State and where it lives.
+    - What changes when State changes.
+
+React, as a library has this peculiarities:
+- [x] Yarn is created by Facebook
+- [x] Never do "yarn eject" Because..
+- [x] "react-scripts build" is optimized and constantly updated.
+- [x] A React Component extended Class needs constructor and super()
+- [x] Interpolation is to write plain javascript
+- [x] JSX needs to be returned in a render() method
+- [x] JSX uses it's own classes, for example className instead of class in html.
+- [x] JSX uses className to distinguish from Class declaration.
+- [x] React is one-way data binding.
+- [x] When the state of a component changes, reload the component.
+- [x] React intercept events using Virtual DOM. Optimizes process.
+- [x] React is only to create UIs.
+- [x] Extending react Components allows to use Lifecycle Methods.
+- [x] We have to architect our app, react is just a library.
+- [x] Components just need arrow functions to live.
+- [x] Class Component and Functional Component
+- [x] Using .js and .jsx doesn't matter, "react-scripts build" knows how to build it.
+- [x] Better use props than props.children and render it.
+- [x] To acces a "Monster" from props we need to use props.monster.anyting
+- [x] Small components are easy to test
+- [x] Modifying props (copy from state) does not affect State. One Way Data Flow.
+- [x] SetState is Async. Also re-render all dependent Components.
+- [x] Redux is an external library to use instead of React State.
+- [x] React uses SyntheticEvents, fake events created from React to wrap real DOM events and manage with Virtual DOM.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
